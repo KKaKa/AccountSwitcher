@@ -47,5 +47,5 @@ deploy:
   provider: releases
   api_key:
     secure: 4973f50485c4955b85c7ca221fb6acfe91f7182c
-  file: app/build/outputs/apk/account-switcher-release.apk
+  file: app/build/outputs/apk/release/account-switcher-release.apk
   skip_cleanup: true
