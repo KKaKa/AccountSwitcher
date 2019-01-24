@@ -46,6 +46,6 @@ before_deploy:
 deploy:
   provider: releases
   api_key:
-    secure: b24d9e21966ef59f3810c7a70d683a54a711598d
+    secure: "${GH_TOKEN}"
   file: app/build/outputs/apk/release/account-switcher-release.apk
   skip_cleanup: true
