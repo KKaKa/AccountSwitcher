@@ -41,7 +41,7 @@ script:
 
 before_deploy:
 - ls app/build/outputs/apk/release
-- mv app/build/outputs/apk/app-release.apk app/build/outputs/apk/release/account-switcher-release.apk
+- mv app/build/outputs/apk/release/app-release.apk app/build/outputs/apk/release/account-switcher-release.apk
 
 deploy:
   provider: releases
