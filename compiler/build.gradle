@@ -1,0 +1,10 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    compileOnly 'com.google.auto.service:auto-service:1.0-rc4'
+    api project(':base')
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"

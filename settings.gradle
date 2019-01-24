@@ -1,0 +1,1 @@
+include ':app', ':base', ':compiler', ':compiler-release', ':accountswitchbox'

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AccountSwitcher.iml" filepath="$PROJECT_DIR$/AccountSwitcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/accountswitchbox/accountswitchbox.iml" filepath="$PROJECT_DIR$/accountswitchbox/accountswitchbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/compiler/compiler.iml" filepath="$PROJECT_DIR$/compiler/compiler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/compiler-release/compiler-release.iml" filepath="$PROJECT_DIR$/compiler-release/compiler-release.iml" />
+    </modules>
+  </component>
+</project>
