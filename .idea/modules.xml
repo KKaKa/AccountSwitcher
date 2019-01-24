@@ -3,11 +3,17 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AccountSwitcher.iml" filepath="$PROJECT_DIR$/AccountSwitcher.iml" />
+      <module fileurl="file://F:\Project_2018\AccountSwitcher\AccountSwitcher.iml" filepath="F:\Project_2018\AccountSwitcher\AccountSwitcher.iml" />
       <module fileurl="file://$PROJECT_DIR$/accountswitch/accountswitch.iml" filepath="$PROJECT_DIR$/accountswitch/accountswitch.iml" />
+      <module fileurl="file://F:\Project_2018\AccountSwitcher\accountswitch\accountswitch.iml" filepath="F:\Project_2018\AccountSwitcher\accountswitch\accountswitch.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://F:\Project_2018\AccountSwitcher\app\app.iml" filepath="F:\Project_2018\AccountSwitcher\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
+      <module fileurl="file://F:\Project_2018\AccountSwitcher\base\base.iml" filepath="F:\Project_2018\AccountSwitcher\base\base.iml" />
       <module fileurl="file://$PROJECT_DIR$/compiler/compiler.iml" filepath="$PROJECT_DIR$/compiler/compiler.iml" />
+      <module fileurl="file://F:\Project_2018\AccountSwitcher\compiler\compiler.iml" filepath="F:\Project_2018\AccountSwitcher\compiler\compiler.iml" />
       <module fileurl="file://$PROJECT_DIR$/compiler-release/compiler-release.iml" filepath="$PROJECT_DIR$/compiler-release/compiler-release.iml" />
+      <module fileurl="file://F:\Project_2018\AccountSwitcher\compiler-release\compiler-release.iml" filepath="F:\Project_2018\AccountSwitcher\compiler-release\compiler-release.iml" />
     </modules>
   </component>
 </project>
