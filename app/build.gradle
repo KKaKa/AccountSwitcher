@@ -10,8 +10,22 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+    signingConfigs {
+        config {
+            keyAlias 'key0'
+            keyPassword '1234qwer'
+            storeFile file('../key.jks')
+            storePassword '1234qwer'
+        }
+    }
     buildTypes {
         release {
+            signingConfig signingConfigs.config
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            signingConfig signingConfigs.config
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
@@ -30,6 +44,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     debugAnnotationProcessor project(':compiler')
     releaseAnnotationProcessor project(':compiler-release')
-    implementation project(':accountswitchbox')
+    implementation project(':accountswitch')
     implementation 'com.android.support:design:28.0.0'
 }

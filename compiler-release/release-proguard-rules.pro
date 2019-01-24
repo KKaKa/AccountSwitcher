@@ -1,0 +1,6 @@
+-dontwarn java.nio.**
+-dontwarn javax.annotation.**
+-dontwarn javax.lang.**
+-dontwarn javax.tools.**
+-dontwarn com.squareup.javapoet.**
+-keep class com.kkaka.** { *; }
