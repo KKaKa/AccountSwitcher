@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
-import com.kkaka.accountswitchbox.AccountSwitcherBoxActivity;
+import com.kkaka.accountswitch.AccountSwitcherBoxActivity;
 import com.kkaka.base.AccountSwitcher;
 import com.kkaka.base.bean.AccountBean;
 import com.kkaka.base.listener.OnAccountChangeListener;

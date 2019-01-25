@@ -1,4 +1,4 @@
-package com.kkaka.accountswitchbox;
+package com.kkaka.accountswitch;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package com.kkaka.accountswitchbox;
+package com.kkaka.accountswitch;
 
 import org.junit.Test;
 
