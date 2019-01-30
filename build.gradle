@@ -8,10 +8,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.1.4'
-        
-
-        // NOTE: Do not place your application dependencies here; they belong
-        // in the individual module build.gradle files
+        classpath 'com.novoda:bintray-release:0.8.1'
     }
 }
 
@@ -19,9 +16,25 @@ allprojects {
     repositories {
         google()
         jcenter()
+        maven { url 'https://dl.bintray.com/zexinlai0307/maven/' }
     }
 }
 
 task clean(type: Delete) {
     delete rootProject.buildDir
+}
+
+ext{
+    artifactId_base = 'account-switcher-base'
+    artifactId_compiler = 'account-switcher-compiler'
+    artifactId_compiler_release = 'account-switcher-compiler-release'
+    artifactId_environment_switcher = 'account-switcher'
+
+    publish_version = '1.0.1'
+
+    user_org = "zexinlai0307"
+    user_emial = "zexinlai0307@gmail.com"
+    group_id = "com.sdj.kkaka"
+    web_site = "https://github.com/KKaKa/AccountSwitcher"
+    gitUrl = "https://github.com/KKaKa/AccountSwitcher.git"
 }

@@ -1,9 +1,20 @@
 apply plugin: 'java-library'
+//apply plugin: 'com.novoda.bintray-release'
+//
+//publish{
+//    userOrg = user_org
+//    groupId = group_id
+//    artifactId = artifactId_compiler_release
+//    publishVersion = publish_version
+//    desc = 'account-switcher-compiler-release'
+//    website = web_site
+//}
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     compileOnly 'com.google.auto.service:auto-service:1.0-rc4'
-    implementation project(':compiler')
+//    implementation project(':compiler')
+    api 'com.sdj.kkaka:account-switcher-compiler:1.0.1'
 }
 
 sourceCompatibility = "1.7"
