@@ -5,7 +5,7 @@ apply plugin: 'java-library'
 //    userOrg = user_org
 //    groupId = group_id
 //    artifactId = artifactId_compiler_release
-//    publishVersion = publish_version
+//    publishVersion = compiler_release_publish_version
 //    desc = 'account-switcher-compiler-release'
 //    website = web_site
 //}
@@ -14,7 +14,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     compileOnly 'com.google.auto.service:auto-service:1.0-rc4'
 //    implementation project(':compiler')
-    api 'com.sdj.kkaka:account-switcher-compiler:1.0.1'
+    api 'com.sdj.kkaka:account-switcher-compiler:1.0.3'
 }
 
 sourceCompatibility = "1.7"

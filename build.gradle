@@ -30,7 +30,10 @@ ext{
     artifactId_compiler_release = 'account-switcher-compiler-release'
     artifactId_environment_switcher = 'account-switcher'
 
-    publish_version = '1.0.1'
+    base_publish_version = '1.0.2'
+    compiler_publish_version = '1.0.3'
+    compiler_release_publish_version = '1.0.3'
+    account_switcher_publish_version = '1.0.3'
 
     user_org = "zexinlai0307"
     user_emial = "zexinlai0307@gmail.com"

@@ -252,7 +252,7 @@ public class AccountSwitcherCompilerDebug extends AbstractProcessor {
                                                  String accountName,
                                                  String password,
                                                  String alias){
-        if (accountAnnotation.isDefailt()) {
+        if (accountAnnotation.isDefault()) {
             defaultAccountFiledBuilder.initializer(String.format("%s%s", VAR_ACCOUNT_PREFIX,accountUpperCaseName));
         }
 

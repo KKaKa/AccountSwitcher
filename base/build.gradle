@@ -5,7 +5,7 @@ apply plugin: 'java-library'
 //    userOrg = user_org
 //    groupId = group_id
 //    artifactId = artifactId_base
-//    publishVersion = publish_version
+//    publishVersion = base_publish_version
 //    desc = 'account-switcher-base'
 //    website = web_site
 //}

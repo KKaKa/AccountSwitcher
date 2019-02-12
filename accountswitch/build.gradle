@@ -5,7 +5,7 @@ apply plugin: 'com.android.library'
 //    userOrg = user_org
 //    groupId = group_id
 //    artifactId = artifactId_environment_switcher
-//    publishVersion = publish_version
+//    publishVersion = account_switcher_publish_version
 //    desc = 'account-switcher'
 //    website = web_site
 //}
@@ -39,5 +39,5 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 //    api project(':base')
-    api 'com.sdj.kkaka:account-switcher-base:1.0.1'
+    api 'com.sdj.kkaka:account-switcher-base:1.0.2'
 }

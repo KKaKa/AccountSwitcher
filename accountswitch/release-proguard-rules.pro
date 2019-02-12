@@ -24,4 +24,7 @@
 -dontwarn javax.lang.**
 -dontwarn javax.tools.**
 -dontwarn com.squareup.javapoet.**
--keep class com.kkaka.** { *; }
+-keep class com.kkaka.base { *; }
+-keep class com.kkaka.complier { *; }
+-keep class com.kkaka.complier_release { *; }
+-keep class com.kkaka.accountswitch { *; }

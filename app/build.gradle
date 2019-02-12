@@ -45,8 +45,13 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    debugAnnotationProcessor project(':compiler')
-    releaseAnnotationProcessor project(':compiler-release')
-    implementation project(':accountswitch')
+//    debugAnnotationProcessor project(':compiler')
+//    releaseAnnotationProcessor project(':compiler-release')
+//    implementation project(':accountswitch')
     implementation 'com.android.support:design:28.0.0'
+
+    implementation 'com.sdj.kkaka:account-switcher:1.0.3'
+    debugAnnotationProcessor 'com.sdj.kkaka:account-switcher-compiler:1.0.3'
+    releaseAnnotationProcessor 'com.sdj.kkaka:account-switcher-compiler-release:1.0.3'
+
 }

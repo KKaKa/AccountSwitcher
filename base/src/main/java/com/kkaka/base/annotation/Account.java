@@ -19,5 +19,5 @@ public @interface Account {
 
     String alias();
 
-    boolean isDefailt() default false;
+    boolean isDefault() default false;
 }

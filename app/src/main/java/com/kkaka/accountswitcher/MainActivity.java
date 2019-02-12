@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
                 AccountSwitcherBoxActivity.toAccountSwitcherBoxActivity(MainActivity.this);
             }
         });
+
     }
 
     @Override
